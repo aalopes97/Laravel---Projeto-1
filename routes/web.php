@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('saudacao');
 });
+
+ Route::get('/ola', function(){
+     return view('ola');
+});
